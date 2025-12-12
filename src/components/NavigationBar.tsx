@@ -15,7 +15,7 @@ function NavigationBar() {
           </li>
           <li>
             <a className="text-blue-500 hover:text-blue-800" href="#">
-              Link
+              Skills
             </a>
           </li>
           <li>
