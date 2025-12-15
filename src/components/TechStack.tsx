@@ -1,17 +1,38 @@
-import { SiHtml5 } from "react-icons/si";
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiTailwindcss,
+  SiReact,
+  SiTypescript,
+  SiUnity,
+} from "react-icons/si";
+
+export const techStack = [
+  { name: "HTML5", Icon: SiHtml5 },
+  { name: "CSS3", Icon: SiCss3 },
+  { name: "JavaScript", Icon: SiJavascript },
+  { name: "Tailwind", Icon: SiTailwindcss },
+  { name: "React", Icon: SiReact },
+  { name: "TypeScript", Icon: SiTypescript },
+  { name: "Unity", Icon: SiUnity },
+];
 
 function TechStack() {
   return (
-    <>
-      <div className="w-full mt-10">
-        <div className="flex flex-row items-start max-w-3xl mx-auto px-4 space-x-4">
-          <figure className="border-2 rounded-lg shadow-md w-24 h-24 flex flex-col items-center justify-center">
-            <SiHtml5 size={35} className="mb-2" />
-            <figcaption>HTML5</figcaption>
+    <div className="w-full mt-8">
+      <div className="grid grid-cols-7 gap-2 max-w-2xl mx-auto px-4">
+        {techStack.map(({ name, Icon }) => (
+          <figure
+            key={name}
+            className="border-2 rounded-lg shadow-md w-21 h-21 flex flex-col items-center justify-center"
+          >
+            <Icon size={32} className="mb-1" />
+            <figcaption className="mt-0.5 text-xs">{name}</figcaption>
           </figure>
-        </div>
+        ))}
       </div>
-    </>
+    </div>
   );
 }
 

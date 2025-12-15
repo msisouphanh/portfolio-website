@@ -4,7 +4,7 @@ function Bio() {
   return (
     <>
       <div className="w-full flex justify-center mt-6">
-        <div className="flex flex-row items-center md:items-start max-w-3xl mx-auto px-4">
+        <div className="flex flex-row items-center md:items-start max-w-2xl mx-auto px-4">
           <div className="mr-8 shrink-0">
             <img
               className="rounded-full w-36 h-36 mt-1.5"
