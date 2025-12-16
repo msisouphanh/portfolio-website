@@ -9,7 +9,7 @@ A personal e-portfolio website designed to showcase my projects, skills, and exp
 - `Tailwind CSS`
 - `Vite`
 
-## Running the Project
+## Running the Portfolio
 
 1. Clone the repository to your local machine.
 2. Install Vite by running: `npm install vite@latest`
