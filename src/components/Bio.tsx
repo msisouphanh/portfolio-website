@@ -17,9 +17,9 @@ function Bio() {
               Hi, I am Marcus!
             </h2>
             <p className="text-md dark:text-zinc-200">
-              I am recent graduate at York University, currently learning how to
-              improve in UX/UI design, and improving development front-end
-              skills with React and Tailwind CSS
+              I am recent Infotmation Technology graduate at York University,
+              currently learning how to improve in UX/UI design, and improving
+              development front-end skills with React and Tailwind CSS
             </p>
             <div className="flex mt-3 dark:text-zinc-200">
               <a
